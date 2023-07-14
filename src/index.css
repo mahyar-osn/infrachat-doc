@@ -1,0 +1,69 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  font-size: 14pt;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+.MuiMenu-paper {
+  transition-duration: 0s !important;
+}
+
+.ProseMirror {
+  min-height: 100vh;
+}
+
+.ProseMirror-focused {
+  outline: none;
+}
+
+.ProseMirror h1,
+.ProseMirror h2,
+.ProseMirror h3,
+.ProseMirror h4,
+.ProseMirror h5,
+.ProseMirror h6 {
+  line-height: 1.2;
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+  color: #adb5bd;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+.ProseMirror blockquote {
+  border-left: 4px solid #e9ecef;
+  color: #6c757d;
+  margin: 0;
+  padding: 0 1em;
+}
+
+.ProseMirror code {
+  background-color: #f8f9fa;
+  border-radius: 3px;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  font-size: 0.9em;
+  padding: 0 0.2em;
+}
+
+.ProseMirror pre {
+  background-color: #f8f9fa;
+  border-radius: 3px;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  font-size: 0.9em;
+  padding: 1em;
+}

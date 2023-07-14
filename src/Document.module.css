@@ -1,0 +1,21 @@
+.page {
+  background-color: #fff;
+  max-width: 1024px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 4rem 6rem;
+
+  box-shadow: 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+@media (max-width: 1024px) {
+  .page {
+    padding: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 2rem;
+  }
+}

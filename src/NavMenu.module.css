@@ -1,0 +1,74 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #dadce0;
+  z-index: 1;
+}
+
+.gutter {
+  /* Match doc gutter */
+  padding: 0 6rem;
+}
+
+.menus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3em;
+  max-width: calc(1024px + 6rem * 2);
+  margin: 0 auto;
+}
+
+.menuLeft {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.brand {
+  cursor: pointer;
+  font-size: 9pt;
+  opacity: 0.5;
+  margin-top: 4px;
+}
+
+.brand img {
+  vertical-align: middle;
+  margin-top: -3px;
+  margin-left: 4px;
+  width: 20px;
+  height: auto;
+}
+
+.menuTopLevel {
+  cursor: pointer;
+  user-select: none;
+}
+
+.saveStatus {
+  margin-left: auto;
+  font-size: 0.8rem;
+}
+
+.success {
+  color: #98af99;
+}
+
+.notice {
+  font-size: 0.8rem;
+  color: #333;
+}
+
+@media (max-width: 1024px) {
+  .gutter {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .gutter {
+    padding: 0 0.5rem;
+  }
+}

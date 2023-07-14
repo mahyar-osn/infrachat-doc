@@ -1,0 +1,51 @@
+{
+  "name": "arkose",
+  "license": "AGPL-3.0",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.11",
+    "@tiptap/extension-font-family": "^2.0.0-beta.202",
+    "@tiptap/extension-link": "^2.0.0-beta.202",
+    "@tiptap/extension-placeholder": "^2.0.0-beta.202",
+    "@tiptap/extension-text-align": "^2.0.0-beta.202",
+    "@tiptap/extension-text-style": "^2.0.0-beta.202",
+    "@tiptap/extension-underline": "^2.0.0-beta.202",
+    "@tiptap/react": "^2.0.0-beta.202",
+    "@tiptap/starter-kit": "^2.0.0-beta.202",
+    "debounce": "^1.2.1",
+    "file-saver": "^2.0.5",
+    "openai": "^3.2.1",
+    "prosemirror-docx": "^0.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-toastify": "^9.0.8",
+    "store": "^2.0.12",
+    "turndown": "^7.1.1",
+    "uuid": "^9.0.0",
+    "valtio": "^1.7.5"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.18.0",
+    "@types/debounce": "^1.2.1",
+    "@types/file-saver": "^2.0.5",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@types/store": "^2.0.2",
+    "@types/turndown": "^5.0.1",
+    "@types/uuid": "^8.3.4",
+    "@upstash/ratelimit": "^0.1.5",
+    "@upstash/redis": "^1.16.1",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.6"
+  }
+}

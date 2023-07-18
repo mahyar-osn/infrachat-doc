@@ -1,5 +1,5 @@
 export default {
   OpenAI: {
-    apiKey: "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",
+    apiKey: import.meta.env.VITE_OPENAI_API_KEY,
   },
 };

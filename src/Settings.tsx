@@ -20,12 +20,11 @@ export default function Settings({ open, onClose }: { open: boolean; onClose: ()
 
   return (
     <Dialog open={open} onClose={onClose}>
-      <DialogTitle>JARShel Document Writer Settings</DialogTitle>
+      <DialogTitle>InfraChat Document Generator Settings</DialogTitle>
       <DialogContent>
         <Box marginBottom={4}>
           <DialogContentText>
-            This AI-enabled word processor uses GPT-3 from OpenAI. You may use it for free, but you
-            must provide your own API key.
+            Use this settings to configure the AI.
           </DialogContentText>
         </Box>
         <Box marginBottom={4}>

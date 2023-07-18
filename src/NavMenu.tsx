@@ -169,7 +169,7 @@ export default function NavMenu({ editor, saved, onCreateNewDocument }: NavMenuP
               <MenuItem onClick={handleSaveMarkdown}>Export MS Word</MenuItem>
               {/* <MenuItem onClick={handleSaveDocx}>Export DOCX</MenuItem> */}
             </Menu>
-            {/* <div
+            <div
               id="settings-menu"
               className={styles.menuTopLevel}
               onClick={() => setSettingsOpen(true)}
@@ -183,10 +183,10 @@ export default function NavMenu({ editor, saved, onCreateNewDocument }: NavMenuP
                 handleClose();
               }}
             />
-            <div id="stats-menu" className={styles.menuTopLevel} onClick={() => setStatsOpen(true)}>
+            {/* <div id="stats-menu" className={styles.menuTopLevel} onClick={() => setStatsOpen(true)}>
               Stats
-            </div>
-            <Stats
+            </div> */}
+            {/* <Stats
               editor={editor}
               open={statsOpen}
               onClose={() => {
@@ -221,7 +221,7 @@ export default function NavMenu({ editor, saved, onCreateNewDocument }: NavMenuP
             >
               <MenuItem
                 onClick={() => {
-                  window.open('', '_blank');
+                  window.open('https://github.com/typpo/arkose/wiki', '_blank');
                 }}
               >
                 <ListItemIcon>

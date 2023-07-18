@@ -34,13 +34,13 @@ export async function onRequestPost({ request, env }) {
   const json = await request.json();
   // TODO: Validate the request body
 
-  const { OPENAI_API_KEY } = env;
+  // const { OPENAI_API_KEY } = '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';
 
   const resp = await fetch('https://api.openai.com/v1/engines/text-davinci-003/completions', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      authorization: `Bearer ${OPENAI_API_KEY}`,
+      authorization: `Bearer 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`,
     },
     body: JSON.stringify({
       ...json,

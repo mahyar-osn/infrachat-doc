@@ -221,7 +221,7 @@ export default function NavMenu({ editor, saved, onCreateNewDocument }: NavMenuP
             >
               <MenuItem
                 onClick={() => {
-                  window.open('https://github.com/typpo/arkose/wiki', '_blank');
+                  window.open('', '_blank');
                 }}
               >
                 <ListItemIcon>
@@ -231,7 +231,7 @@ export default function NavMenu({ editor, saved, onCreateNewDocument }: NavMenuP
               </MenuItem>
               <MenuItem
                 onClick={() => {
-                  window.open('https://github.com/typpo/arkose', '_blank');
+                  window.open('', '_blank');
                 }}
               >
                 <ListItemIcon>
@@ -240,22 +240,22 @@ export default function NavMenu({ editor, saved, onCreateNewDocument }: NavMenuP
                 <ListItemText>Source code</ListItemText>
               </MenuItem>
             </Menu> */}
-            {remainingCompletions <= 5 && (
+            {/* {remainingCompletions <= 5 && (
               <div className={styles.notice}>
                 {remainingCompletions} completions remaining.{' '}
                 <a
                   target="_blank"
-                  href="https://github.com/typpo/arkose/wiki/Obtaining-a-GPT-3-API-key"
+                  href=""
                 >
                   Learn more
                 </a>
               </div>
-            )}
+            )} */}
           </div>
           <div className={styles.menuRight}>
             <div className={styles.brand} onClick={() => doCompletion(editor)}>
               JarShel
-              <img src={Logo} alt="Arkose logo" />
+              <img src={Logo} alt="Jarshel logo" />
             </div>
           </div>
           {/*

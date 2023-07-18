@@ -1,6 +1,6 @@
 {
-  "name": "arkose",
-  "license": "AGPL-3.0",
+  "name": "jarshel-writer",
+  "license": "",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
